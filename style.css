@@ -83,13 +83,13 @@ header h1 {
 }
 
 .quote-banner {
-    background: linear-gradient(135deg, #28a745, #218838);
+    background: linear-gradient(135deg, #28a745 0%, #218838 100%);
     padding: 20px;
     margin: 30px auto;
     max-width: 1000px;
     border-radius: 10px;
     box-shadow: 0 5px 20px rgba(40, 167, 69, 0.4);
-    animation: pulse-green 2s ease-in-out infinite;
+    animation: pulse 2s ease-in-out infinite;
 }
 
 .quote-content {
@@ -324,4 +324,5 @@ footer {
         font-size: 1.5em;
     }
 }
+
 
